@@ -23,22 +23,22 @@ const FormComponent = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div className="mb-3">
-        <label className="form-label">Event Name:</label>
-        <input type="text" className="form-control" name="field1" value={formData.field1} onChange={handleChange} />
-      </div>
+    // <form onSubmit={handleSubmit}>
+    //   <div className="mb-3">
+    //     <label className="form-label">Event Name:</label>
+    //     <input type="text" className="form-control" name="field1" value={formData.field1} onChange={handleChange} />
+    //   </div>
   
-      <div className="mb-3">
-        <label className="form-label">Event Date:</label>
-        <input type="date" className="form-control" name="field2" value={formData.field2} onChange={handleChange} />
-      </div>
+    //   <div className="mb-3">
+    //     <label className="form-label">Event Date:</label>
+    //     <input type="date" className="form-control" name="field2" value={formData.field2} onChange={handleChange} />
+    //   </div>
 
 
 
-      <button type="submit" className="btn btn-primary">Submit</button>
+    //   <button type="submit" className="btn btn-primary">Submit</button>
 <ShareButton/>
-    </form>
+    // </form>
   );
 };
 
