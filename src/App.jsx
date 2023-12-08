@@ -4,23 +4,23 @@ import React, { useState } from 'react';
 import ShareButton from './Share';
 
 const FormComponent = () => {
-  const [formData, setFormData] = useState({
-    field1: '',
-    field2: '',
-  });
+  // const [formData, setFormData] = useState({
+  //   field1: '',
+  //   field2: '',
+  // });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
-  };
+  // const handleChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setFormData((prevData) => ({
+  //     ...prevData,
+  //     [name]: value,
+  //   }));
+  // };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Form submitted with data:', formData);
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log('Form submitted with data:', formData);
+  // };
 
   return (
     // <form onSubmit={handleSubmit}>
