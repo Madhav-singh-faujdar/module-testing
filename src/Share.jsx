@@ -5,9 +5,9 @@ const ShareButton = () => {
     try {
       if (navigator.share) {
         await navigator.share({
-          title: 'Xplo events',
-          text: 'Find out your best events',
-          url: 'https://www.xplolive.com/',
+          title: 'Mongodb ',
+          text: 'Find out your best db',
+          url: 'https://www.mongodb.com/',
           
         });
       } else {
